@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func printGreetings() {
+func showGreetings() {
 
 	names := []string{"Yani", "Vlad", "Krasi", "Ivan", "Kris", "Naso", "Dimi", "Geri", "Lili", "Zoya"}
 
@@ -13,6 +13,6 @@ func printGreetings() {
 }
 
 func main() {
-	printGreetings()
+	showGreetings()
 
 }
