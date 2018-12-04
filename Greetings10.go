@@ -2,17 +2,19 @@ package main
 
 import "fmt"
 
-func showGreetings() {
+func showGreetings(n []string) {
 
-	names := []string{"Yani", "Vlad", "Krasi", "Ivan", "Kris", "Naso", "Dimi", "Geri", "Lili", "Zoya"}
-
-	for _, c := range names {
+	for _, c := range n {
 		fmt.Println("Name:", c)
 	}
 
 }
 
 func main() {
-	showGreetings()
 
+	n1 := []string{"Yani", "Vlad", "Krasi", "Ivan", "Kris", "Naso", "Dimi", "Geri", "Lili", "Zoya"}
+	showGreetings(n1)
+
+	n2 := []string{"Yani"}
+	showGreetings(n2)
 }
