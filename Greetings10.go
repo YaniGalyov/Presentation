@@ -10,7 +10,12 @@ func showGreetings(n []string) {
 
 }
 
-func showAge......
+func showAge(y []int) {
+
+	for _, i := range y {
+		fmt.Println("Age:", i)
+	}
+}
 
 func main() {
 
@@ -19,4 +24,8 @@ func main() {
 
 	n2 := []string{"Yani"}
 	showGreetings(n2)
+
+	y := []string{"36", "39", "20", "25", "41", "30", "15", "11", "22", "19"}
+	showAge(y)
+
 }
